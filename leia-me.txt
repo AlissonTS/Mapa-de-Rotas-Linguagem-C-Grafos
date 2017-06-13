@@ -1,0 +1,34 @@
+Funcionalidades Atingidas:
+- Cadastro Automático de 8 cidades com 10 caminhos
+- Cadastro de Cidade com apontamento já feito para outra cidade da região solicitada pelo usuário
+na hora do cadastro
+- Cadastro de Cidade se ela for única da região
+- Formação de Lista atualizada de cidades cadastradas após inserções
+- Alocação de um vetor de struct com os nomes das cidades visitadas ao longo do caminhamento
+- Caminhamento na região
+- Pesquisar Cidade cadastrada na região e mostrar seus vizinhos, se não estiver, cadastrá-la
+com um vizinho da região
+- Alterar Cidade - Nome, Número de habitantes, alteração com visinhos - distância e 
+tipo de caminhos com vizinhos.
+
+Funcionalidades Não Atingidas:
+- Exclusão de cidade e caminhos
+- Alteração, exclusão e inclusão de reapontamento de caminhos em cidades já cadastradas
+- Verificação de duas cidades e possíveis rotas, e a melhor se possuir mais de uma
+
+Observações: 
+- A região começa já com 8 cidades e 10 caminhos entre elas
+- Ao cadastrar uma cidade, obrigatoriamente é preciso de outra cidade como vizinha
+
+Requisitos
+1, 2, 3, 5(em parte), 6, 8
+
+Cidades Inseridas Automáticamente: 
+Santa Maria (SM),
+São José (SJ),
+Caxias (CA),
+Passo do Macaco (PDM),
+São Martinho (SMS),
+Julio de Castilhos (JC),
+Palmas (PA),
+São Gabriel (SG),
